@@ -1,0 +1,50 @@
+---
+coordinate: HIST.COLLAPSE.1
+tags: [state-collapse, somalia, libya, warlords, failed-states, power-vacuum]
+domain: hist
+links:
+  flow:
+    - target: AUTH.DEFENSE.1
+      why: "Critics use state collapse cases to argue that without centralized military authority, armed factions inevitably dominate — making defense the residual claim after the 'anarchy = chaos' conflation is exposed."
+  resolution: [AUTH.FEDERATION.1]
+  escalation:
+    - target: PHIL.NATURE.1
+      why: "When the distinction between violent regime breakdown and bottom-up self-organization is established, critics retreat to asserting that warlordism proves humans naturally dominate without a sovereign."
+aliases: ["somalia proves anarchy fails", "libya", "power vacuum", "warlords"]
+---
+
+# State Collapse: Somalia, Libya, and the Warlord Argument
+
+## Position
+
+"Every time a state collapses, what fills the void is warlords" is the most common historical argument against non-state governance. It is also the most misleading.
+
+### What These Cases Actually Are
+
+Somalia and Libya are **not** clean experiments in "what happens when people try bottom-up self-organization." They are cases of:
+- Violent regime breakdown
+- Factional militarization
+- External meddling (arms flooding, patron states competing for influence)
+- Armed groups competing to **become the new state** or capture its rents
+
+Yes, warlordism happened. That's what happens when you **destroy institutions, flood a country with weapons and patrons, and leave people fighting over the remnants of centralized coercive infrastructure.**
+
+### The Double-Edged Sword
+
+If the standard is "when the state collapses, bad actors fill the vacuum," congratulations: you've just described why concentrating power in a single choke point is dangerous. When it fails, everything fails at once.
+
+Distributed systems fail locally and recover locally. Centralized systems fail catastrophically.
+
+### What These Cases Do NOT Prove
+
+- They do not prove that bottom-up governance fails (it was never tried — these are top-down collapses)
+- They do not prove humans need a sovereign (they prove armed factions compete to become one)
+- They do not prove that "anarchy = chaos" (anarchy is a governance proposal, not the absence of one)
+
+## Objection Handling
+
+| Move | Response | Concession |
+|---|---|---|
+| "Somalia proves anarchy fails" | Somalia is not an anarchist experiment. It is a violent regime collapse with external meddling. Armed groups fighting to become the new state is not evidence against alternatives to states — it's evidence FOR why concentrating power in a single point is dangerous. | Accepts that state collapse produces bad outcomes, conceding centralized systems have catastrophic failure modes |
+| "Show me the fair test that survived" | You're treating "not being crushed by states" as proof that states are necessary. If a mafia destroys every business that refuses protection money, the conclusion is not "protection rackets are the only viable business model." | Concedes no fair test has been permitted, implicitly acknowledging state systems suppress alternatives |
+| "The strong dominate the weak without a state" | Route to `phil/nature.md`. Also: the strong dominate the weak WITH a state — they just do it through institutional channels. The question is which design limits domination more effectively. | Accepts domination is the problem to solve, not hierarchy per se |

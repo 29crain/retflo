@@ -1,0 +1,9 @@
+.DS_Store
+*.swp
+*.swo
+*~
+artifacts/
+.claude/
+.netlify/
+.playwright-mcp/
+tools/

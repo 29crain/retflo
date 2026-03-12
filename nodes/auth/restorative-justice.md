@@ -1,0 +1,104 @@
+---
+coordinate: AUTH.JUSTICE.1
+tags: [justice, restorative, punitive, crime, prison, community, accountability, harm-reduction]
+domain: auth
+links:
+  flow:
+    - target: AUTH.ENFORCEMENT.1
+      why: "Restorative justice raises the practical enforcement question: when community accountability processes are defied, who has the capacity and authority to compel compliance."
+    - target: AUTH.LOCALTYRANNY.1
+      why: "Community-based justice faces the risk that local majorities weaponize restorative processes against minorities, reproducing local tyranny with therapeutic language."
+  escalation:
+    - target: PHIL.COERCION.1
+      why: "When pushed on what happens when restorative processes fail, the justice debate reaches the deeper philosophical question of whether any social order can exist without a coercion chain."
+    - target: SOC.OPPRESSION.1
+      why: "The class function of punitive justice connects to the broader structural oppression analysis, where the criminal justice system is one apparatus among many that reproduce social hierarchy."
+aliases: ["what about crime", "without police who stops criminals", "what about murderers", "prisons keep us safe", "you need punishment as deterrent"]
+---
+
+# Restorative Justice: Addressing Harm Without Cages
+
+## Position
+
+The punitive justice model -- police, courts, prisons -- does not reduce harm.
+It warehouses harm, traumatizes everyone involved, and produces recidivism at
+rates that would constitute malpractice in any other field. The US prison system
+rearrests over 75% of released individuals within five years. This is not a
+baseline to accept -- it is evidence of systematic, structural failure.
+Restorative justice addresses harm by repairing the affected community and
+supporting genuine accountability from the person who caused it.
+
+### The Structural Drivers: Most Crime is Poverty
+
+The overwhelming majority of crime is property crime produced by economic
+inequality. Eliminate the structural drivers and most crime disappears. This is
+not utopian speculation -- it is the consistent finding of criminological
+research. Crime rates correlate strongly with inequality (measured by the Gini
+coefficient), not with policing levels or incarceration rates. Countries with
+lower inequality have lower crime rates regardless of their policing models.
+Cities that increase police funding do not see proportional crime reduction;
+communities that receive economic investment do.
+
+The implication is direct: the most effective crime-reduction strategy is not
+more police or longer sentences but the elimination of the material conditions
+that produce crime. A society that guarantees housing, food, healthcare, and
+meaningful work eliminates the structural pressure that drives the vast majority
+of criminal behavior. This is not a claim about human perfectibility -- it is a
+claim about incentive structures.
+
+### Interpersonal Violence: The Hard Case
+
+For interpersonal violence -- assault, sexual violence, murder -- community-based
+accountability processes produce better outcomes than isolation in institutions
+that breed further violence. The restorative model centers the person who was
+harmed, seeks material repair, addresses root causes (trauma, addiction,
+untreated mental illness), and holds the person who caused harm accountable
+through community processes.
+
+"Accountability" in the punitive model means suffering administered by the
+state. The person harmed receives nothing -- no repair, no answers, no voice in
+the process. The person who caused harm is isolated in an environment of
+institutional violence that deepens the very patterns that produced the original
+offense. Prisons do not rehabilitate -- they are universities of violence,
+trauma, and criminality.
+
+Restorative processes -- circle sentencing, community conferencing, victim-
+offender mediation -- consistently show lower recidivism, higher victim
+satisfaction, and better community outcomes than punitive approaches. These are
+not soft alternatives; genuine accountability (facing the person you harmed,
+understanding the impact, making material repair, changing behavior under
+community supervision) is harder than sitting in a cell.
+
+### The Class Function of "Justice"
+
+The current system is not "justice" -- it is class-differentiated social
+control. Wage theft by employers exceeds all property crime combined yet is
+barely prosecuted. Drug laws target communities of color despite equal usage
+rates across racial groups. White-collar crime that devastates millions (the
+2008 financial crisis, the opioid epidemic) produces fewer prosecutions than
+shoplifting in a single city.
+
+The system protects property arrangements, not people. Police exist to enforce
+the property relations of the existing order, and they do this job effectively.
+What they do not do -- and are not structurally designed to do -- is reduce harm,
+resolve conflict, or address the conditions that produce violence.
+
+### Community Safety Without the State
+
+Community safety in a non-state framework operates through: direct intervention
+by trained community members for immediate threats; restorative processes for
+accountability and repair; material support systems that address root causes;
+and federated networks for coordination across communities. This is not
+hypothetical -- indigenous justice systems, community mediation programs, and
+transformative justice collectives already demonstrate these practices, often
+achieving better outcomes than the punitive system they operate alongside.
+
+## Objection Handling
+
+| Move | Response | Concession |
+|---|---|---|
+| "What about violent crime and serial offenders?" | Violent crime constitutes a small fraction of total crime and correlates with untreated trauma, addiction, and material deprivation. Address the root causes and the incidence drops dramatically. For the irreducible remainder, community-supervised restriction of movement is possible without the institutional violence of prisons. The question is not whether dangerous individuals exist but whether caging them in trauma factories makes anyone safer -- and the recidivism data says it does not. | Concedes that some individuals pose genuine community safety risks -- accepts the need for protective separation in extreme cases while insisting it need not take the form of punitive incarceration |
+| "Criminals deserve punishment" | Retributive intuition is real but is not a policy framework. Punishment satisfies the desire for revenge but does not reduce harm, repair damage, or prevent recurrence. If the goal is justice, measure justice by outcomes: does the process reduce future harm, repair the affected community, and hold the offender accountable? Punitive systems fail on all three measures. | Concedes that the retributive impulse is psychologically real -- accepts the emotional reality while insisting that policy should be evaluated by outcomes, not by how satisfying it feels |
+| "Restorative justice doesn't deter" | Neither does punishment. Decades of criminological research show that severity of punishment has minimal deterrent effect; certainty of being caught matters somewhat, but the strongest predictors of crime are economic conditions and social environment. People who commit crimes are not performing cost-benefit analyses of sentencing guidelines. Deterrence theory fails on its own empirical terms. | Concedes that deterrence is a legitimate policy goal -- accepts the framework while demonstrating that punitive approaches fail to achieve it |
+| "Communities would resort to mob justice" | This conflates community accountability with absence of process. Restorative justice involves structured procedures, trained facilitators, defined roles, and agreed-upon principles. The current system already produces "mob justice" -- it just wears uniforms. Police killings, prosecutorial overreach, and prison violence are state-administered mob justice with better funding. Structured community processes are MORE procedurally rigorous than plea bargaining, which resolves over 95% of criminal cases without trial. | Concedes that unstructured community responses can be dangerous -- accepts the need for procedural safeguards while insisting that community processes can be and often are more rigorous than the current system |
+| "This only works for minor offenses" | New Zealand has used family group conferencing for serious youth offenses including violence since 1989. South Africa's Truth and Reconciliation Commission addressed apartheid-era atrocities through restorative principles. Indigenous sentencing circles handle the full range of offenses. The claim that restorative approaches cannot address serious harm is empirically false -- it reflects unfamiliarity with the practice, not its limitations. | Forced to confront evidence that restorative approaches already handle serious offenses across multiple cultures and legal systems — concedes ignorance of the existing practice rather than identifying a limitation of the approach. |

@@ -1,0 +1,340 @@
+Retflo™ Cooperative Commons License (RCCL) v1.0
+
+Copyright (C) 2026 retflo™ contributors
+
+---
+
+Preamble
+
+This License governs use of the Retflo work, which includes both the software
+(source code, APIs, visualizer, tooling) and the content (argument nodes,
+connection data, documentation, and derived datasets) — collectively, "the Work."
+
+The purpose of this License is to maximize free use of the Work by people and
+organizations structured around democratic worker ownership and mutual aid, while
+ensuring that entities structured to extract surplus value from workers for the
+benefit of non-working owners cannot use the Work without a separate commercial
+agreement.
+
+The distinction this License draws is not between profit and non-profit, nor
+between large and small, nor between sectors or industries. The distinction is
+structural: who controls the organization, and in whose interest does it
+operate? An organization run by and for its workers is a Cooperative Entity. An
+organization in which control or profit flows primarily to people who do not
+perform its labor is a Prohibited Entity.
+
+This License is designed to be interpreted in light of that purpose. Where
+ambiguity exists, interpreters — including courts — are directed to resolve it in
+the way most consistent with the intent stated here: broad access for democratic
+worker organizations, and no free access for extractive ones.
+
+---
+
+Part I: Definitions
+
+1.1 "The Work" means the Retflo software, content, and data in any form,
+including source code, compiled code, the argument graph, node definitions,
+connection data, documentation, APIs, and any Derivative Works covered by this
+License.
+
+1.2 "Derivative Work" means any work that is based on, incorporates, adapts,
+translates, or is otherwise derived from the Work in whole or in part, including
+but not limited to: modified versions, integrations, wrappers, fine-tuned models
+trained on the Work's content, applications that embed the Work's data, and
+services that serve the Work's content via network.
+
+1.3 "Use" means any act that would require a copyright license, including but
+not limited to: reproducing, distributing, publicly performing, publicly
+displaying, transmitting over a network, and creating Derivative Works. It
+expressly includes making the Work or a Derivative Work available to third parties
+via a network service, API, or application (the "Network Use" provision — see
+Section 3.3).
+
+1.4 "Cooperative Entity" means any organization that, at the time of Use,
+satisfies ALL of the following criteria:
+
+  (a) Worker Control: A majority of voting rights in governance decisions are
+  held by persons who perform regular labor for the organization ("worker-members"),
+  and no single non-worker-member or group of non-worker-members acting in concert
+  holds a blocking or controlling interest in governance;
+
+  (b) Democratic Governance: Governance is structured on a one-member-one-vote
+  basis, or an equivalent verifiably democratic structure in which no member's vote
+  counts more than another's solely by virtue of capital contribution;
+
+  (c) Worker-Oriented Surplus Distribution: Where the organization generates
+  surplus, the primary mode of distribution is to worker-members in proportion to
+  their labor contribution, not to external investors in proportion to their capital
+  contribution;
+
+  (d) Independence: The organization is not Controlled by a Prohibited Entity
+  (see Section 1.5 and the anti-avoidance provisions of Section 4).
+
+  Organizations that satisfy (a) through (d) include, but are not limited to:
+  formally registered worker cooperatives, platform cooperatives, collectively-run
+  nonprofits governed by their workers, mutual aid organizations, labor unions
+  using the Work for organizing purposes, and student or community organizations
+  with no external controlling ownership.
+
+1.5 "Prohibited Entity" means any organization that, at the time of Use, meets
+ANY of the following criteria:
+
+  (a) A majority of voting rights in governance decisions are held by persons who
+  do not perform regular labor for the organization; OR
+
+  (b) Profit or surplus is distributed primarily to persons who do not perform
+  regular labor for the organization (i.e., external shareholders or investors);
+  OR
+
+  (c) A single individual or entity that does not perform regular labor for the
+  organization holds a unilateral right to override governance decisions, hire or
+  fire workers, or dissolve the organization.
+
+  Organizations that are Prohibited Entities include, but are not limited to:
+  investor-owned corporations, publicly traded companies, private equity-owned
+  entities, sole proprietorships operated primarily by hired labor, and any
+  organization in which capital holders, rather than workers, hold ultimate
+  control.
+
+  A nonprofit organization is a Prohibited Entity if it meets any of criteria
+  (a) through (c) with respect to its governance structure, notwithstanding its
+  tax-exempt status.
+
+1.6 "Controlled by" means that a Prohibited Entity (i) owns more than 25% of
+the equity or voting rights of the organization; (ii) has the contractual right to
+appoint a majority of the governing board; (iii) is owed a debt obligation whose
+terms give it governance rights or operational veto; or (iv) otherwise exercises
+de facto control over the organization's strategic or operational decisions.
+
+1.7 "Licensor" means the copyright holder(s) of the Work.
+
+1.8 "You" means the individual or organization exercising rights under this
+License.
+
+---
+
+Part II: Grant of Rights
+
+2.1 Grant to Cooperative Entities. Subject to the conditions in Part III and
+the eligibility requirements in Part IV, the Licensor grants You, if You are a
+Cooperative Entity, a worldwide, royalty-free, non-exclusive, perpetual license
+to:
+
+  (a) Use, reproduce, and distribute the Work;
+  (b) Create and distribute Derivative Works;
+  (c) Make the Work or Derivative Works available via network services;
+  (d) Use the Work for any purpose, including commercial purposes within the
+  organization's cooperative activities.
+
+2.2 Grant to Individuals. The Licensor grants any natural person a worldwide,
+royalty-free, non-exclusive license to Use the Work for personal, educational,
+research, or advocacy purposes, provided such use does not primarily benefit a
+Prohibited Entity.
+
+2.3 No Grant to Prohibited Entities. This License does not grant any rights
+to Prohibited Entities. Any Use by a Prohibited Entity without a separate
+Commercial License Agreement is an infringement of the Licensor's copyright.
+
+2.4 Commercial License. Prohibited Entities may seek a separate written
+Commercial License from the Licensor. Such licenses are granted at the Licensor's
+sole discretion and on terms negotiated separately from this License. The existence
+of this provision does not create any entitlement to a Commercial License.
+
+---
+
+Part III: Conditions
+
+All rights granted under Section 2.1 and 2.2 are subject to the following
+conditions. Failure to comply with any condition automatically terminates Your
+rights under this License (see Section 6).
+
+3.1 Attribution. Any distribution of the Work or a Derivative Work must
+include:
+
+  (a) A clear and prominent notice identifying the original Work and its author(s);
+  (b) A copy of this License or a URI pointing to a canonical copy of it;
+  (c) A notice of any material changes made, if You distribute a Derivative Work.
+
+3.2 ShareAlike (Copyleft). If You distribute a Derivative Work, You must
+license it under this License (RCCL v1.0), or a later version of this License
+published by the Licensor, on the same terms. You may not impose additional
+restrictions on recipients' rights under this License.
+
+3.3 Network Use (Strong Copyleft). If You make the Work or a Derivative Work
+available to third parties via a network service, API, application, or any remote
+interface — including services that serve the Work's content, data, or
+functionality without distributing source files — this constitutes Use for
+purposes of this License. You must make the complete corresponding source code and
+content of the Derivative Work available under this License at no charge, via a
+publicly accessible repository or equivalent means, concurrent with the provision
+of the network service.
+
+3.4 No Sublicensing. You may not sublicense the Work to any party. Each
+recipient of the Work or a Derivative Work automatically receives a license from
+the Licensor under the terms of this License, subject to their own eligibility.
+
+3.5 Integrity of Argument Content. If You distribute a Derivative Work that
+modifies the argument nodes, connections, or reasoning content of the Work, You
+must:
+
+  (a) Clearly mark all such modifications as Your own and not represent them as
+  part of the original Work;
+  (b) Not present modified argument content in a way that is designed to mislead
+  readers about the original Work's positions.
+
+---
+
+Part IV: Eligibility, Attestation, and Audit
+
+4.1 Self-Attestation Requirement. Before making any Use covered by this
+License (other than individual personal use under Section 2.2), an organization
+must provide a written Attestation of Eligibility. The Attestation must:
+
+  (a) State that the organization meets all criteria of a Cooperative Entity as
+  defined in Section 1.4;
+  (b) Be signed or otherwise authenticated by a person with authority to bind
+  the organization;
+  (c) Be dated;
+  (d) Be retained by the organization and made available to the Licensor upon
+  request.
+
+  Attestation may be provided by: a signed statement on organizational letterhead
+  or equivalent; a declaration in the organization's public documentation (e.g.,
+  README, website, governing documents) that expressly references this License and
+  affirms eligibility; or any other written form that creates a clear, dated record.
+
+4.2 Audit Right. The Licensor may, at any time and for any reason, request
+that an organization using the Work provide documentation sufficient to verify
+its eligibility as a Cooperative Entity. Such documentation may include, without
+limitation: bylaws or governing documents, ownership or membership records,
+profit-sharing or surplus distribution records, and board or governance records.
+
+  The organization must provide responsive documentation within thirty (30)
+  calendar days of the request. Failure to respond, or documentation that reveals
+  the organization does not meet the criteria of Section 1.4, results in automatic
+  termination of the organization's rights under this License.
+
+4.3 Misrepresentation. Providing a false Attestation of Eligibility
+constitutes fraud and a material breach of this License. The Licensor reserves
+all legal remedies available for such misrepresentation, including claims for
+damages arising from the unauthorized use.
+
+4.4 Transitional Organizations. An organization that does not yet have formal
+cooperative registration but is in active transition toward meeting all criteria
+of Section 1.4 may Use the Work under this License for a period not to exceed
+twelve (12) months from the date of first Use, provided that:
+
+  (a) The organization meets criteria 1.4(a) and 1.4(b) (worker control and
+  democratic governance) from the outset, even if formal registration is pending;
+  (b) The organization provides an Attestation of Eligibility under Section 4.1
+  that discloses its transitional status and identifies the steps being taken
+  toward formal compliance;
+  (c) The organization achieves full compliance with all Section 1.4 criteria
+  within the twelve-month period or ceases Use.
+
+---
+
+Part V: Anti-Avoidance
+
+5.1 Substance Over Form. This License shall be interpreted according to its
+substantive purpose, not the formal legal structure of the user. Arrangements
+that are designed or operate to circumvent the eligibility requirements of this
+License — while technically satisfying their literal terms — are prohibited.
+
+5.2 Controlled Entities. Use by any organization that is Controlled by a
+Prohibited Entity (as defined in Sections 1.5 and 1.6) is itself prohibited
+under this License, regardless of that organization's own formal structure. A
+shell cooperative, foundation, or subsidiary whose primary function is to channel
+benefit to a Prohibited Entity does not qualify as a Cooperative Entity.
+
+5.3 Beneficial Use Test. Where the primary economic or strategic benefit of
+a Use accrues to a Prohibited Entity — regardless of which entity technically
+performs the Use — this License treats the Use as having been performed by the
+Prohibited Entity. This provision applies to, without limitation:
+
+  (a) Use by a contractor or vendor whose work product primarily serves a
+  Prohibited Entity;
+  (b) Use by a wholly owned or majority-controlled subsidiary of a Prohibited
+  Entity;
+  (c) Use designed to enable a Prohibited Entity to avoid acquiring a Commercial
+  License.
+
+5.4 Model Training. Training a machine learning model on the Work's content,
+in whole or in part, constitutes Use for purposes of this License. A model trained
+on the Work's content by or for a Prohibited Entity is a Derivative Work subject
+to the conditions of Part III. Offering the outputs of such a model as a service
+constitutes Network Use under Section 3.3.
+
+---
+
+Part VI: Termination
+
+6.1 Automatic Termination. Your rights under this License terminate
+automatically, without notice, upon:
+
+  (a) Any material breach of the conditions in Part III;
+  (b) Any failure to comply with the audit provisions of Section 4.2;
+  (c) Any misrepresentation under Section 4.3;
+  (d) A Cooperative Entity ceasing to satisfy the criteria of Section 1.4,
+  from the date it ceases to satisfy those criteria.
+
+6.2 Cure. If You become aware of a breach and cure it within thirty (30)
+calendar days of becoming aware, Your rights are reinstated — but only once.
+Subsequent breaches of the same provision do not benefit from a cure period.
+
+6.3 Survival. Termination of Your rights does not affect the rights of
+downstream recipients who received the Work from You while Your rights were in
+good standing, provided those recipients remain independently eligible.
+
+---
+
+Part VII: Disclaimer and Limitation of Liability
+
+7.1 No Warranty. THE WORK IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. THE LICENSOR DOES NOT
+WARRANT THAT THE WORK IS ACCURATE, COMPLETE, OR FREE FROM ERROR.
+
+7.2 Limitation of Liability. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE
+LAW, IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE
+OR INABILITY TO USE THE WORK, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+---
+
+Part VIII: General Provisions
+
+8.1 Jurisdiction-Neutral Interpretation. This License is intended to be
+enforceable in any jurisdiction. Where a specific provision is unenforceable under
+the law of a particular jurisdiction, that provision shall be modified to the
+minimum extent necessary to make it enforceable, and the remainder of the License
+shall continue in full force and effect.
+
+8.2 Severability. If any provision of this License is held invalid or
+unenforceable, the remaining provisions shall remain in full force and effect.
+
+8.3 No Waiver. Failure by the Licensor to enforce any provision of this
+License shall not constitute a waiver of the right to enforce that provision in
+the future.
+
+8.4 Entire Agreement. This License constitutes the entire agreement between
+the Licensor and You with respect to the Work. It supersedes all prior
+understandings and agreements, whether written or oral, relating to the subject
+matter hereof.
+
+8.5 Versions. The Licensor may publish revised versions of this License. A
+Derivative Work already distributed under RCCL v1.0 may continue to be
+distributed under v1.0. New uses may be governed by a later version at the
+Licensor's direction.
+
+8.6 Interpretation Guidance. This License shall be interpreted in light of
+its stated purpose: to maximize free access for democratic worker organizations
+and to prohibit free access for extractive, investor-controlled entities. Courts,
+arbitrators, and other interpreters are directed to resolve ambiguity in the
+manner most consistent with that purpose.
+
+---
+
+Retflo Cooperative Commons License (RCCL) v1.0
+Drafted to provide enforceable protections for the commons.
+Commercial licensing available. Contact the Licensor for terms.
